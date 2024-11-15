@@ -32,6 +32,7 @@ sys.path.append('/usr/local/lib/python3.7/dist-packages')
 sys.path.append('/usr/local/lib/python3.8/dist-packages')
 sys.path.append('/usr/local/lib/python3.9/dist-packages')
 sys.path.append('/usr/local/lib/python3.10/dist-packages')
+sys.path.append('/usr/local/lib/python3.11/dist-packages')
 
 import pymodbus
 
