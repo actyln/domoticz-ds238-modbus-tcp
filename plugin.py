@@ -198,7 +198,7 @@ class BasePlugin:
         try:
             client = ModbusClient(host=self.IPAddress, port=self.IPPort, unit_id=self.MBAddr, auto_open=True, auto_close=True, timeout=2)
         except:
-            Domoticz.Error("Error connecting to TCP/Interface on address : "+self.IPaddress+":"+str(self.IPPort))
+            Domoticz.Error("Error connecting to TCP/Interface on address : "+self.IPAddress+":"+str(self.IPPort))
             # Set value to 0 -> Error on all devices
             Devices[1].Update(1, "0")
             Devices[2].Update(1, "0")
